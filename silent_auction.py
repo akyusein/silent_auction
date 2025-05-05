@@ -29,8 +29,9 @@ def find_winner(bidders):
         if bidder["bid"] > highest_bid:
             highest_bid = bidder["bid"]
             winner = bidder["name"]
-
+        
     print(f"{pick} goes to {winner} with a bid of £{highest_bid}")
-
+    return winner
+    
 if __name__ == "__main__":
     main()
