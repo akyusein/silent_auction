@@ -7,6 +7,7 @@ print(logo)
 print("Welome to this silent auction!")
 pick = str(random.choice(options))
 print(f"You're fighting to win {pick}! Good luck!")
+print("This is a second test")
 
 def main():
     bidders = []
