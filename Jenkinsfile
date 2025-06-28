@@ -21,7 +21,7 @@ pipeline {
                 sh '''
                     echo "Running tests..."
                     pytest .
-                    coverage run -m unittest discover
+                    coverage run -m pytest
                     coverage report --fail-under=90
                 '''
             }
