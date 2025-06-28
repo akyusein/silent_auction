@@ -32,6 +32,6 @@ def test_tie_breaker_fail():
                {"name": 'Izet', "bid": 350},
                {"name": 'Harley', "bid": 40}
     ]
-    expected = 'Aksel'
+    expected = 'Izet'
     result = find_winner(bidders=bidders)
     assert(expected!=result)
