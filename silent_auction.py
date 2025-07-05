@@ -17,7 +17,6 @@ def find_winner(bidders):
             highest_bid = bidder["bid"]
             winner = bidder["name"]
     print(f"{pick} goes to {winner} with a bid of £{highest_bid}!")
-    print("Hello")
     return winner
 
 def main():
