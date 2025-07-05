@@ -16,7 +16,7 @@ def find_winner(bidders):
         if bidder["bid"] > highest_bid:
             highest_bid = bidder["bid"]
             winner = bidder["name"]
-    print(f"\n🏆 {pick} goes to {winner} with a bid of £{highest_bid}!")
+    print(f"{pick} goes to {winner} with a bid of £{highest_bid}!")
     return winner
 
 def main():
@@ -38,7 +38,7 @@ def main():
                 break
             
             else:
-                print("❌ Invalid input! Please type 'yes' or 'no'.\n")
+                print("Invalid input! Please type 'yes' or 'no'.\n")
 
     find_winner(bidders)
 
